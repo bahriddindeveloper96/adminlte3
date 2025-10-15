@@ -1,0 +1,55 @@
+/* Custom styles for AdminLTE Vue application */
+
+/* Override AdminLTE styles if needed */
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Custom utility classes */
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* Sidebar customization */
+.main-sidebar {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  min-height: calc(100vh - 57px);
+}
+
+/* Card customization */
+.card {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover effects */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 10px;
+  }
+}
